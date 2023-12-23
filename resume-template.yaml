@@ -1,0 +1,37 @@
+basic_info:
+  name: ""
+  email: ""
+  sites:
+    linkedin: ""
+    github: ""
+    blog: ""
+  aboutMe: ""
+
+education:
+  school: ""
+  degree: ""
+  fieldOfStudy: ""
+  startYear: ""
+  endYear: ""
+
+skills:
+  languages: []
+  backend: []
+  devops: []
+  frontend: []
+  ide: []
+
+experience:
+  - companyName: ""
+    position: ""
+    startDate: ""
+    endDate: ""
+    responsibilities: []
+    achievements: []
+
+awards:
+  - title: ""
+    issuer: ""
+    date: ""
+    link: ""
+ 
