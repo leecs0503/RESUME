@@ -1,37 +1,300 @@
-basic_info:
-  name: ""
-  email: ""
+basicInfo:
+  name: 이창수
+  email: leecs0503@gmail.com
   sites:
-    linkedin: ""
-    github: ""
-    blog: ""
-  aboutMe: ""
-
-education:
-  school: ""
-  degree: ""
-  fieldOfStudy: ""
-  startYear: ""
-  endYear: ""
+    linkedin: https://www.linkedin.com/in/changsu-lee-108447147/
+    github: https://github.com/leecs0503
+    blog: https://cscscs.tistory.com/
+  aboutMe:
+   - OS, Networking, Distributed system, Performance, Reliability 에서 발생하는 문제에 관심이 많습니다.
+   - Purity를 추구하지만 행동의 가치를 더 중요시 여깁니다.
+   # TODO: 
 
 skills:
-  languages: []
-  backend: []
-  devops: []
-  frontend: []
-  ide: []
+  - name: Languages
+    list:
+    - Python 
+    - Golang
+    - JavaScript (Nodejs Runtime)
+    - ShellScript
+  - name: Backend
+    list:
+    - FastAPI
+    - Echo
+    - Express
+    - Redis
+    - Kafka
+  - name: ServiceMesh
+    list:
+    - Kubernetes
+    - Istio
+    - Envoy
+    - Knative
+  - name: Infra
+    list:
+    - Prometheus
+    - Grafana
+    - ELK
+    - Kiali
+    - Jaeger
+  - name: Devops
+    list:
+    - Terraform (+CDKTF)
+    - gitlabCI
+    - ArgoCD
+    - Helm
+    - Ansible
+  - name: ML
+    list:
+    - KubeFlow
+    - Kserve
+    - MLFlow
+    - Pytorch
+    - TorchServe
+    - TFServing
+  - name: Frontend
+    list:
+    - React
+  - name: Miscellaneous
+    list:
+    - Linux (Debian)
+    - Docker
+    - Kaniko
+    - Buildkit
 
 experience:
-  - companyName: ""
-    position: ""
-    startDate: ""
-    endDate: ""
-    responsibilities: []
-    achievements: []
+  - companyName: Nexon
+    - position: MLOps Backend Engineer
+      startDate: 2022-01
+      endDate: null
+      responsibilities:
+       - ML 모델 서빙용 AWS 인프라 구축 및 유지 보수
+       - 학습용 On-premise Cluster 구축 및 유지 보수
+  - companyName: Ngine Studio
+    - position: Team Lead
+      startDate: 2020-11
+      endDate: 2021-12
+      responsibilities:
+       - 기술연구팀 팀 리드
+    - position: Backend Engineer
+      startDate: 2018-09
+      endDate: 2020-11
+      responsibilities:
+       - 광고 시스템 구축
+  - companyName: 삼성 SDS (시간제)
+    - position: Head Algorithm Lecturer
+      startDate: 2017-08
+      endDate: 2018-09
+      responsibilities:
+       - 삼성 알고리즘 Professional 양성과정 강의 진행 
+  - companyName: 삼성 전자 (시간제)
+    - position: Algorithm Teaching Assistant
+      startDate: 2015-03
+      endDate: 2018-09
+      responsibilities:
+       - 삼성 알고리즘 Professional 양성과정 강의 진행
 
-awards:
-  - title: ""
-    issuer: ""
-    date: ""
-    link: ""
- 
+projects:
+  - title: ML모델 서빙 인프라 구축 및 운영
+    startDate: 2022-01
+    endDate: null
+    where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+    skills:
+     - Kubernetes
+     - Golang
+     - Istio
+     - Knative
+     - Kserve
+     - TorchServe
+     - NodeLocal DNS Cache
+     - Prometheus
+     - Grafana
+     - ELK
+     - AWS managed services(EKS, EBS, EFS, ECS)
+     - Terraform
+    details:
+    - 딥러닝 모델 서빙 인프라 구축
+    - RPS 기반 AutoScaling 시스템 구축
+    - Fast start up을 위한 최적화
+    - Four Golden Signal 기반 모니터링 시스템 구축
+    - 멀티 리전 환경에 대한 traffic mirroring 시스템 구축
+    - 인프라 운영용 API 서버 구축
+ - title: 사내 학습용 On-premise GPU node cluster 구축 및 운영
+   startDate: 2022-01
+   endDate: null
+   where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+   skills:
+    - Kubernetes
+    - KubeFlow
+    - Istio
+    - Dex
+    - Prometheus
+    - Grafana
+    - Longhorn
+    - NFS
+    - Ansible
+   details:
+    - 모델 학습을 위한 KubeFlow 환경 구축
+    - GPU 노드 관련 트러블 슈팅
+  - title: 선행개발실 모델 서빙 API 엔드포인트 운영
+    startDate: 2022-01
+    endDate: null
+    where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+    skills:
+     - Kubernetes
+     - Python
+     - Redis
+     - Knative
+     - Kserve
+     - TorchServe
+     - TFServing
+     - Locust
+    details:
+     - Torch 기반, Tensorflow 기반 모델 서빙 컴포넌트 구현
+     - 모델 * 런타임별 target RPS 설정
+  - title: 모델 서빙 배치 Job 리팩토링
+    startDate: 2022-01
+    endDate: 2022-01
+    where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+    skills:
+     - Kubernetes
+     - Python
+     - Mysql
+     - LocalStack
+     - AWS managed services (CloudWatch, EKS, S3)
+     - Grafana
+    details:
+     - error prone한 legacy job 로직 추상화 및 유지 보수가 가능하도록 리팩토링
+     - 테스트 가능한 환경 구축
+  - title: CI/CD 구축
+    startDate: 2021-01
+    endDate: null
+    where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+    skills:
+     - gitlab ci
+     - argoCD
+     - gitlab runner (k8s)
+     - Kaniko
+     - Docker
+    details:
+    - k8s 기반 gitlab runner 환경 구축
+    - git plumbing command와 persistent volume을 활용한 CI 속도 최적화
+    - argoCD를 통한 gitOps 구축
+  - title: 경험최적화팀 ML 모델 서빙 시스템 운영
+    startDate: 2021-01
+    endDate: 2021-12
+    where: 넥슨 인텔리전스랩스 선행개발실 경험최적화팀
+    skills:
+     - Python
+     - Golang
+     - Scala
+     - Kubernetes
+     - Mysql
+     - Kafka
+     - Flink
+     - Kserve
+     - Istio
+     - Knative
+     - Pytorch
+     - Prometheus
+     - ELK
+     - Kiali
+     - Terraform
+    details:
+      - Inference Server Component를 I/O bound 로직과 GPU bound 로직 기반으로 분리
+      - 추론 서버의 Blocking I/O 로직을 Non-Blocking I/O 로직으로 리팩토링
+      - kserve 연동
+      - go로 구성된 API 서버 로직을 python에서 실행 가능하도록 shared library로 포팅
+      - Kiali를 통한 mesh의 reliability 시각화
+      - ELK 기반 로그 관리 시스템 운영
+      - 운영 이슈 대응
+  - title: 구글, 페이스북 리타겟팅 광고 시스템 구축
+    startDate: 2019-01
+    endDate: 2020-0? # TODO: Convert to the exact date.
+    where: 엔진스튜디오 기술연구팀
+    skills:
+     - Nodejs (+Typescript)
+     - Google ads API
+     - Facebook pixel API
+     - React
+     - ZeroMQ
+     - Mysql
+    details:
+    - 구글 ads, 페이스북 pixel 광고 시스템 구조를 시스템화
+    - CRM 데이터를 활용한 리타겟팅 광고 집행 시스템 구축
+  - title: 메이플 코디추천 시스템 (*졸업 작품)
+    startDate: 2022-09
+    endDate: 2022-12
+    where: 고려대학교
+    skills:
+     - Python
+     - Pytorch
+     - TensorBoard
+     - Tornado
+     - React
+     - C#
+     - Docker
+    details:
+    - 프로젝트 리드
+    - 전체 구조 설계
+    - 이미지 URL로 부터 아이템 코드 복호화 로직 구현
+    - 모델 로직 구현 및 하이퍼파라메터 튜닝
+    - 프로토타입 프론트 구현
+  - title: VQA 
+    startDate: 2022-03
+    endDate: 2022-06
+    where: 고려대학교
+    skills:
+     - Python
+     - Pytorch
+     - TensorBoard
+     - Tornado
+     - React
+    details:
+    - Vanila VQA 구현 및 학습
+    - SBERT 기반 VQA 구현 및 학습
+    - transformer 기반 Multi modal 모델 (MCAoAN) 학습
+    - MCAoAN 모델 attention 시각화
+    - kserve기반 Inference Server 구현
+
+awards: # 중요도 순
+  - title: "2014 International Olympiad in Informatics(IOI) Bronze Medal"
+    link: https://stats.ioinformatics.org/people/5131
+  - title: "Asia-Pacific Olympiad in Informatics (APIO) Silver Medal"
+    link: null
+  - title: "2016 ACM ICPC Daejeon Regional 4th place, Gold Prize (team: Never Give Up)"
+    link: https://icpc.global/regionals/finder/daejeon-2017/standings
+  - title: "2021 고려대학교 프로그래밍 경시대회 Div.1 1등"
+    link: https://www.acmicpc.net/contest/spotboard/736
+  - title: "2023 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 4th place (team: 16)"
+    link: https://www.acmicpc.net/contest/spotboard/1069
+  - title: "2017 ACM ICPC Ho Chi Minh City Regional 3rd prize (team: DoWF)"
+    link: null
+  - title: "2017 ACM ICPC Daejeon Regional 8th place (team: DoWF)"
+    link: https://icpc.global/regionals/finder/daejeon-2018/standings
+  - title: "2021 ACM ICPC Daejeon Regional 12th place (team: TLE NIE TAK)"
+    link: https://icpc.global/regionals/finder/seoul-2022/standings
+  - title: "2022 ACM ICPC Daejeon Regional 16th place (team: LaSt Chance)"
+    link: https://icpc.global/regionals/finder/seoul-2023/standings
+  - title: "2015 ACM ICPC Daejeon Regional 28th place (team: dailyCoding)"
+    link: https://icpc.global/regionals/finder/daejeon-2016/standings
+  - title: "2022 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 7th place (team name: aHR0cDovL2Vyci5vLXIua3Iv)"
+    link: https://www.acmicpc.net/contest/spotboard/828
+  - title: "2020 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 8th place (team name: 성우되는 법)"
+    link: https://www.acmicpc.net/contest/spotboard/524
+  - title: "2021 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 15th place (team name: TLE NIE TAK)"
+    link: https://www.acmicpc.net/contest/spotboard/670
+  - title: "2021 삼성 대학생 프로그래밍 경시대회 (SCPC) 5등상"
+    link: https://www.codeground.org/scpc/commons/honer/list
+  - title: "2017 삼성 대학생 프로그래밍 경시대회(SCPC) 5등상"
+    link: https://www.codeground.org/scpc/commons/honer/list
+  - title: "2022 2학기 캡스톤디자인 경진대회 우수상"
+    link: https://info.korea.ac.kr/info/board/notice_under.do;jsessionid=T4yFkspYTHXHv1w7NgJD090ZWflS1fvJnVqQvRplZNTP1y1Gn2ym!401080661?mode=view&articleNo=312421&article.offset=0&articleLimit=10&srSearchVal=%EC%BA%A1%EC%8A%A4%ED%86%A4&srSearchKey=article_title&totalNoticeYn=N&totalBoardNo=
+
+
+education:
+  - school: Korea Univ
+    degree: 3.6x/4.5
+    fieldOfStudy: Computer Science
+    startDate: 2016-03
+    endDate: 2024-02

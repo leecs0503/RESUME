@@ -1,0 +1,50 @@
+basic_info:
+  name: "홍길동"
+  email: "gildong@gildong.com"
+  sites:
+    linkedin: "https://aaa.bbb.ccc/a/b/c"
+    github: "https://github.com/"
+    blog: "https://xxx.xxx.xxx"
+  aboutMe: "Hello World!"
+
+skills:
+  - name: "language"
+    list:
+      - C++
+  - name: "frameworks"
+    list:
+    - SOMEFRAMEWORK1
+    - SOMEFRAMEWORK2
+  # ...
+
+experience:
+  - companyName: COMPANY_X
+    - position: SOME_POSITION
+      startDate: XXXX-YY
+      endDate: AAAA-BB
+      responsibilities:
+      - DO SOMETHING
+
+projects:
+ - title: 홍길동의 프로젝트
+   where: 길동회사
+   startDate: 2023-09
+   endDate: 2023-12
+   skills:
+    - C++
+   details:
+    - 컴포넌트 A 구현
+    - 컴포넌트 B 구현
+
+awards:
+  - title: 길동 어워드 1
+    link: null
+  - title: 길동 어워드 2
+    link: https://aaa.bbb.ccc
+ 
+education:
+  school: 길동대학교
+  degree: 4.41/4.5
+  fieldOfStudy: Computer Science
+  startYear: 1463-03
+  endYear: 1467-02
