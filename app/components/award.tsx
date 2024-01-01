@@ -1,7 +1,7 @@
 export default function Award({ awards }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6">
-      <h2 className="text-2xl font-bold mb-4">Awards</h2>
+    <h2 className="text-2xl font-bold mb-4">Awards</h2>
       <div className="flex flex-wrap -mx-2">
         {awards.map((award, idx) => (
           <div key={idx} className="flex flex-col w-full md:w-1/2 px-2 mb-6">

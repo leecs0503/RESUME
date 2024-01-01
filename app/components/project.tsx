@@ -3,7 +3,7 @@ export default function Projects({ projects }) {
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6">
-      <h2 className="text-xl font-bold mb-4">Projects</h2>
+      <h2 className="text-2xl font-bold mb-4">Projects</h2>
       <div className="space-y-8">
         {projects.map((project, idx) => (
           <div key={idx} className="pl-6 pr-2 border-l-2 border-blue-200 mb-6">

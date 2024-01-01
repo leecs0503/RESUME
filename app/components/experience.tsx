@@ -3,7 +3,7 @@ export default function Experience({ experiences }) {
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6">
-      <h2 className="text-xl font-bold mb-4">Work Experience</h2>
+    <h2 className="text-2xl font-bold mb-4">Work Experience</h2>
       <div className="relative border-l-2 border-gray-300">
         {experiences.map((exp, idx) => (
           <div key={idx} className="mb-8 ml-8">
