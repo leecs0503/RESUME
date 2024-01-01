@@ -10,7 +10,7 @@ export default function Skill({ skills }) {
               {skillCategory.list.map((skill, index) => (
                 <li key={index} className="flex items-center">
                   {/* Assume icon.svg is an icon that represents the skill */}
-                  <img src={`/icons/${skill.toLowerCase()}.png`} alt={skill} className="w-6 h-6 mr-2" />
+                  <img src={`/icons/${skill.toLowerCase().replace("+", " ")}.png`} alt={skill} className="w-6 h-6 mr-2" />
                   <span>{skill}</span>
                 </li>
               ))}
