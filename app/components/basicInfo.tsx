@@ -25,7 +25,7 @@ export default function BasicInfo({ name, email, sites, aboutMe }) {
         </div>
 
         <div className="text-gray-700">
-          <h2 className="text-lg font-semibold mb-2">About Me</h2>
+          {/* <h2 className="text-lg font-semibold mb-2">About Me</h2> */}
           {aboutMe.map((item, index) => (
             <p key={index} className="mb-2">{item}</p>
           ))}

@@ -1,11 +1,12 @@
-basic_info:
+basicInfo:
   name: "홍길동"
   email: "gildong@gildong.com"
   sites:
     linkedin: "https://aaa.bbb.ccc/a/b/c"
     github: "https://github.com/"
     blog: "https://xxx.xxx.xxx"
-  aboutMe: "Hello World!"
+  aboutMe:
+    - Hello World!
 
 skills:
   - name: "language"
@@ -19,11 +20,11 @@ skills:
 
 experience:
   - companyName: COMPANY_X
-    - position: SOME_POSITION
-      startDate: XXXX-YY
-      endDate: AAAA-BB
-      responsibilities:
-      - DO SOMETHING
+    position: SOME_POSITION
+    startDate: XXXX-YY
+    endDate: AAAA-BB
+    responsibilities:
+    - DO SOMETHING
 
 projects:
  - title: 홍길동의 프로젝트
