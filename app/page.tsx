@@ -1,12 +1,12 @@
-import "./globals.css"
-import Award from "./components/award"
-import BasicInfo from "./components/basicInfo"
-import Education from "./components/education"
-import Experience from "./components/experience"
-import Project from "./components/project"
-import Skill from "./components/skill"
-
 import resumeData from '../resume-kr.yaml';
+
+import "./globals.css";
+import Award from "./components/award";
+import BasicInfo from "./components/basicInfo";
+import Education from "./components/education";
+import Experience from "./components/experience";
+import Project from "./components/project";
+import Skill from "./components/skill";
 
 export default function Page() {
   return (
@@ -41,5 +41,5 @@ export default function Page() {
       />
     </div>
   </div>
-  )
+  );
 }
