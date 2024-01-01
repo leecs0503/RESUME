@@ -2,7 +2,8 @@
   "dependencies": {
     "next": "^14.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "yaml-loader": "^0.8.0"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,8 +14,11 @@
   "devDependencies": {
     "@types/node": "20.10.5",
     "@types/react": "18.2.45",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "5.3.3"
   }
 }

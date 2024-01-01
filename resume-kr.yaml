@@ -64,35 +64,36 @@ skills:
 
 experience:
   - companyName: Nexon
-    - position: MLOps Backend Engineer
-      startDate: 2022-01
-      endDate: null
-      responsibilities:
-       - ML 모델 서빙용 AWS 인프라 구축 및 유지 보수
-       - 학습용 On-premise Cluster 구축 및 유지 보수
+    position: MLOps Backend Engineer
+    startDate: 2022-01
+    endDate: null
+    responsibilities:
+     - ML 모델 서빙용 AWS 인프라 구축 및 유지 보수
+     - 학습용 On-premise Cluster 구축 및 유지 보수
   - companyName: Ngine Studio
-    - position: Team Lead
-      startDate: 2020-11
-      endDate: 2021-12
-      responsibilities:
-       - 기술연구팀 팀 리드
-    - position: Backend Engineer
-      startDate: 2018-09
-      endDate: 2020-11
-      responsibilities:
-       - 광고 시스템 구축
+    position: Team Lead
+    startDate: 2020-11
+    endDate: 2021-12
+    responsibilities:
+     - 기술연구팀 팀 리드
+  - companyName: Ngine Studio
+    position: Backend Engineer
+    startDate: 2018-09
+    endDate: 2020-11
+    responsibilities:
+     - 광고 시스템 구축
   - companyName: 삼성 SDS (시간제)
-    - position: Head Algorithm Lecturer
-      startDate: 2017-08
-      endDate: 2018-09
-      responsibilities:
-       - 삼성 알고리즘 Professional 양성과정 강의 진행 
+    position: Head Algorithm Lecturer
+    startDate: 2017-08
+    endDate: 2018-09
+    responsibilities:
+     - 삼성 알고리즘 Professional 양성과정 강의 진행 
   - companyName: 삼성 전자 (시간제)
-    - position: Algorithm Teaching Assistant
-      startDate: 2015-03
-      endDate: 2018-09
-      responsibilities:
-       - 삼성 알고리즘 Professional 양성과정 강의 진행
+    position: Algorithm Teaching Assistant
+    startDate: 2015-03
+    endDate: 2018-09
+    responsibilities:
+     - 삼성 알고리즘 Professional 양성과정 강의 진행
 
 projects:
   - title: ML모델 서빙 인프라 구축 및 운영
@@ -119,23 +120,23 @@ projects:
     - Four Golden Signal 기반 모니터링 시스템 구축
     - 멀티 리전 환경에 대한 traffic mirroring 시스템 구축
     - 인프라 운영용 API 서버 구축
- - title: 사내 학습용 On-premise GPU node cluster 구축 및 운영
-   startDate: 2022-01
-   endDate: null
-   where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
-   skills:
-    - Kubernetes
-    - KubeFlow
-    - Istio
-    - Dex
-    - Prometheus
-    - Grafana
-    - Longhorn
-    - NFS
-    - Ansible
-   details:
-    - 모델 학습을 위한 KubeFlow 환경 구축
-    - GPU 노드 관련 트러블 슈팅
+  - title: 사내 학습용 On-premise GPU node cluster 구축 및 운영
+    startDate: 2022-01
+    endDate: null
+    where: 넥슨 인텔리전스랩스 선행개발실 MLOps팀
+    skills:
+     - Kubernetes
+     - KubeFlow
+     - Istio
+     - Dex
+     - Prometheus
+     - Grafana
+     - Longhorn
+     - NFS
+     - Ansible
+    details:
+     - 모델 학습을 위한 KubeFlow 환경 구축
+     - GPU 노드 관련 트러블 슈팅
   - title: 선행개발실 모델 서빙 API 엔드포인트 운영
     startDate: 2022-01
     endDate: null
