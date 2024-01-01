@@ -342,8 +342,8 @@ awards: # 중요도 순
 
 
 education:
-  - school: Korea Univ
-    degree: 3.68/4.5
-    fieldOfStudy: Computer Science
-    startDate: 2016-03
-    endDate: 2024-02
+  school: Korea University Anam Domitory
+  degree: 3.68/4.5
+  fieldOfStudy: Computer Science
+  startDate: 2016-03
+  endDate: 2024-02

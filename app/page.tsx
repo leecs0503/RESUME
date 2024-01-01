@@ -31,6 +31,15 @@ export default function Page() {
     <div className="mb-4">
       <Award awards={resumeData.awards}/>
     </div>
+    <div className="mb-4">
+      <Education
+        school={resumeData.education.school}
+        degree={resumeData.education.degree}
+        fieldOfStudy={resumeData.education.fieldOfStudy}
+        startDate={resumeData.education.startDate}
+        endDate={resumeData.education.endDate}
+      />
+    </div>
   </div>
   )
 }
