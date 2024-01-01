@@ -8,12 +8,12 @@ basicInfo:
   aboutMe:
    - OS, Networking, Distributed system, Performance, Reliability 에서 발생하는 문제에 관심이 많습니다.
    - Purity를 추구하지만 행동의 가치를 더 중요시 여깁니다.
-   # TODO: 
+   # TODO:
 
 skills:
   - name: Languages
     list:
-    - Python 
+    - Python
     - Golang
     - JavaScript (Nodejs Runtime)
     - ShellScript
@@ -24,13 +24,13 @@ skills:
     - Express
     - Redis
     - Kafka
-  - name: ServiceMesh
+  - name: Infra
     list:
     - Kubernetes
     - Istio
     - Envoy
     - Knative
-  - name: Infra
+  - name: Monitoring
     list:
     - Prometheus
     - Grafana
@@ -44,13 +44,12 @@ skills:
     - ArgoCD
     - Helm
     - Ansible
-  - name: ML
+  - name: MLops
     list:
     - KubeFlow
     - Kserve
     - MLFlow
-    - Pytorch
-    - TorchServe
+    - Pytorch+TorchServe
     - TFServing
   - name: Frontend
     list:
@@ -87,13 +86,95 @@ experience:
     startDate: 2017-08
     endDate: 2018-09
     responsibilities:
-     - 삼성 알고리즘 Professional 양성과정 강의 진행 
+     - 삼성 알고리즘 Professional 양성과정 강의 진행
   - companyName: 삼성전자 (시간제)
     position: Algorithm Teaching Assistant
     startDate: 2015-03
     endDate: 2018-09
     responsibilities:
      - 삼성 알고리즘 Professional 양성과정 강의 진행
+
+awards: # 중요도 순
+  - year: 2014
+    title: "International Olympiad in Informatics (IOI)"
+    prize: Bronze Medal
+    teamName: null
+    link: https://stats.ioinformatics.org/people/5131
+  - year: 2014
+    title: "Asia-Pacific Olympiad in Informatics (APIO) "
+    prize: Silver Medal
+    teamName: null
+    link: null
+  - year: 2016
+    title: "ACM ICPC Daejeon Regional"
+    prize: 4th place, Gold Prize
+    teamName: Never Give Up
+    link: https://icpc.global/regionals/finder/daejeon-2017/standings
+  - year: 2021
+    title: "2021 고려대학교 프로그래밍 경시대회 Div.1"
+    prize: 1st place
+    teamName: null
+    link: https://www.acmicpc.net/contest/spotboard/736
+  - year: 2023
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 4th place
+    teamName: 16
+    link: https://www.acmicpc.net/contest/spotboard/1069
+  - year: 2017
+    title: "ACM ICPC Ho Chi Minh City Regional"
+    prize: 3rd place
+    teamName: DoWF
+    link: null
+  - year: 2017
+    title: "ACM ICPC Daejeon Regional"
+    prize: 8th place
+    teamName: DoWF
+    link: https://icpc.global/regionals/finder/daejeon-2018/standings
+  - year: 2021
+    title: "ACM ICPC Seoul Regional"
+    prize: 12th place
+    teamName: TLE NIE TAK
+    link: https://icpc.global/regionals/finder/seoul-2022/standings
+  - year: 2022
+    title: "ACM ICPC Seoul Regional"
+    prize: 16th place
+    teamName: LaSt Chance
+    link: https://icpc.global/regionals/finder/seoul-2023/standings
+  - year: 2015
+    title: "ACM ICPC Daejeon Regional"
+    prize: 28th place
+    teamName: dailyCoding
+    link: https://icpc.global/regionals/finder/daejeon-2016/standings
+  - year: 2022
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 7th place
+    teamName: aHR0cDovL2Vyci5vLXIua3Iv
+    link: https://www.acmicpc.net/contest/spotboard/828
+  - year: 2020
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 8th place
+    teamName: 성우되는 법
+    link: https://www.acmicpc.net/contest/spotboard/524
+  - year: 2021
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 15th place
+    teamName: TLE NIE TAK
+    link: https://www.acmicpc.net/contest/spotboard/670
+  - year: 2021
+    title: "2021 삼성 대학생 프로그래밍 경시대회 (SCPC)"
+    prize: 5등상
+    teamName: null
+    link: https://www.codeground.org/scpc/commons/honer/list
+  - year: 2017
+    title: "삼성 대학생 프로그래밍 경시대회(SCPC)"
+    prize: 5등상
+    teamName: null
+    link: https://www.codeground.org/scpc/commons/honer/list
+  - year: 2022
+    title: "2학기 캡스톤디자인 경진대회"
+    prize: 우수상
+    teamName: null
+    link: https://info.korea.ac.kr/info/board/notice_under.do;jsessionid=T4yFkspYTHXHv1w7NgJD090ZWflS1fvJnVqQvRplZNTP1y1Gn2ym!401080661?mode=view&articleNo=312421&article.offset=0&articleLimit=10&srSearchVal=%EC%BA%A1%EC%8A%A4%ED%86%A4&srSearchKey=article_title&totalNoticeYn=N&totalBoardNo=
 
 projects:
   - title: ML모델 서빙 인프라 구축 및 운영
@@ -241,7 +322,7 @@ projects:
     - 이미지 URL로 부터 아이템 코드 복호화 로직 구현
     - 모델 로직 구현 및 하이퍼파라메터 튜닝
     - 프로토타입 프론트 구현
-  - title: VQA 
+  - title: VQA
     startDate: 2022-03
     endDate: 2022-06
     where: 고려대학교
@@ -257,89 +338,6 @@ projects:
     - transformer 기반 Multi modal 모델 (MCAoAN) 학습
     - MCAoAN 모델 attention 시각화
     - kserve기반 Inference Server 구현
-
-awards: # 중요도 순
-  - year: 2014
-    title: "International Olympiad in Informatics (IOI)"
-    prize: Bronze Medal
-    teamName: null
-    link: https://stats.ioinformatics.org/people/5131
-  - year: 2014
-    title: "Asia-Pacific Olympiad in Informatics (APIO) "
-    prize: Silver Medal
-    teamName: null
-    link: null
-  - year: 2016
-    title: "ACM ICPC Daejeon Regional"
-    prize: 4th place, Gold Prize
-    teamName: Never Give Up
-    link: https://icpc.global/regionals/finder/daejeon-2017/standings
-  - year: 2021
-    title: "2021 고려대학교 프로그래밍 경시대회 Div.1"
-    prize: 1st place
-    teamName: null
-    link: https://www.acmicpc.net/contest/spotboard/736
-  - year: 2023
-    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
-    prize: 4th place
-    teamName: 16
-    link: https://www.acmicpc.net/contest/spotboard/1069
-  - year: 2017
-    title: "ACM ICPC Ho Chi Minh City Regional"
-    prize: 3rd place
-    teamName: DoWF
-    link: null
-  - year: 2017
-    title: "ACM ICPC Daejeon Regional"
-    prize: 8th place
-    teamName: DoWF
-    link: https://icpc.global/regionals/finder/daejeon-2018/standings
-  - year: 2021
-    title: "ACM ICPC Seoul Regional"
-    prize: 12th place
-    teamName: TLE NIE TAK
-    link: https://icpc.global/regionals/finder/seoul-2022/standings
-  - year: 2022
-    title: "ACM ICPC Seoul Regional"
-    prize: 16th place
-    teamName: LaSt Chance
-    link: https://icpc.global/regionals/finder/seoul-2023/standings
-  - year: 2015
-    title: "ACM ICPC Daejeon Regional"
-    prize: 28th place
-    teamName: dailyCoding
-    link: https://icpc.global/regionals/finder/daejeon-2016/standings
-  - year: 2022
-    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
-    prize: 7th place
-    teamName: aHR0cDovL2Vyci5vLXIua3Iv
-    link: https://www.acmicpc.net/contest/spotboard/828
-  - year: 2020
-    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
-    prize: 8th place
-    teamName: 성우되는 법
-    link: https://www.acmicpc.net/contest/spotboard/524
-  - year: 2021
-    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
-    prize: 15th place
-    teamName: TLE NIE TAK
-    link: https://www.acmicpc.net/contest/spotboard/670
-  - year: 2021
-    title: "2021 삼성 대학생 프로그래밍 경시대회 (SCPC)"
-    prize: 5등상
-    teamName: null
-    link: https://www.codeground.org/scpc/commons/honer/list
-  - year: 2017
-    title: "삼성 대학생 프로그래밍 경시대회(SCPC)"
-    prize: 5등상
-    teamName: null
-    link: https://www.codeground.org/scpc/commons/honer/list
-  - year: 2022
-    title: "2학기 캡스톤디자인 경진대회"
-    prize: 우수상
-    teamName: null
-    link: https://info.korea.ac.kr/info/board/notice_under.do;jsessionid=T4yFkspYTHXHv1w7NgJD090ZWflS1fvJnVqQvRplZNTP1y1Gn2ym!401080661?mode=view&articleNo=312421&article.offset=0&articleLimit=10&srSearchVal=%EC%BA%A1%EC%8A%A4%ED%86%A4&srSearchKey=article_title&totalNoticeYn=N&totalBoardNo=
-
 
 education:
   school: Korea University Anam Domitory

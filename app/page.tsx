@@ -26,10 +26,10 @@ export default function Page() {
       <Experience experiences={resumeData.experience}/>
     </div>
     <div className="mb-4">
-      <Project projects={resumeData.projects}/>
+      <Award awards={resumeData.awards}/>
     </div>
     <div className="mb-4">
-      <Award awards={resumeData.awards}/>
+      <Project projects={resumeData.projects}/>
     </div>
     <div className="mb-4">
       <Education
