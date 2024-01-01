@@ -1,5 +1,5 @@
 import "./globals.css"
-import Awards from "./components/award"
+import Award from "./components/award"
 import BasicInfo from "./components/basicInfo"
 import Education from "./components/education"
 import Experience from "./components/experience"
@@ -21,6 +21,15 @@ export default function Page() {
     </div>
     <div className="mb-4">
       <Skill skills={resumeData.skills}/>
+    </div>
+    <div className="mb-4">
+      <Experience experiences={resumeData.experience}/>
+    </div>
+    <div className="mb-4">
+      <Project projects={resumeData.projects}/>
+    </div>
+    <div className="mb-4">
+      <Award awards={resumeData.awards}/>
     </div>
   </div>
   )

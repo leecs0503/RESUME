@@ -88,7 +88,7 @@ experience:
     endDate: 2018-09
     responsibilities:
      - 삼성 알고리즘 Professional 양성과정 강의 진행 
-  - companyName: 삼성 전자 (시간제)
+  - companyName: 삼성전자 (시간제)
     position: Algorithm Teaching Assistant
     startDate: 2015-03
     endDate: 2018-09
@@ -259,43 +259,91 @@ projects:
     - kserve기반 Inference Server 구현
 
 awards: # 중요도 순
-  - title: "2014 International Olympiad in Informatics(IOI) Bronze Medal"
+  - year: 2014
+    title: "International Olympiad in Informatics (IOI)"
+    prize: Bronze Medal
+    teamName: null
     link: https://stats.ioinformatics.org/people/5131
-  - title: "Asia-Pacific Olympiad in Informatics (APIO) Silver Medal"
+  - year: 2014
+    title: "Asia-Pacific Olympiad in Informatics (APIO) "
+    prize: Silver Medal
+    teamName: null
     link: null
-  - title: "2016 ACM ICPC Daejeon Regional 4th place, Gold Prize (team: Never Give Up)"
+  - year: 2016
+    title: "ACM ICPC Daejeon Regional"
+    prize: 4th place, Gold Prize
+    teamName: Never Give Up
     link: https://icpc.global/regionals/finder/daejeon-2017/standings
-  - title: "2021 고려대학교 프로그래밍 경시대회 Div.1 1등"
+  - year: 2021
+    title: "2021 고려대학교 프로그래밍 경시대회 Div.1"
+    prize: 1st place
+    teamName: null
     link: https://www.acmicpc.net/contest/spotboard/736
-  - title: "2023 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 4th place (team: 16)"
+  - year: 2023
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 4th place
+    teamName: 16
     link: https://www.acmicpc.net/contest/spotboard/1069
-  - title: "2017 ACM ICPC Ho Chi Minh City Regional 3rd prize (team: DoWF)"
+  - year: 2017
+    title: "ACM ICPC Ho Chi Minh City Regional"
+    prize: 3rd place
+    teamName: DoWF
     link: null
-  - title: "2017 ACM ICPC Daejeon Regional 8th place (team: DoWF)"
+  - year: 2017
+    title: "ACM ICPC Daejeon Regional"
+    prize: 8th place
+    teamName: DoWF
     link: https://icpc.global/regionals/finder/daejeon-2018/standings
-  - title: "2021 ACM ICPC Daejeon Regional 12th place (team: TLE NIE TAK)"
+  - year: 2021
+    title: "ACM ICPC Seoul Regional"
+    prize: 12th place
+    teamName: TLE NIE TAK
     link: https://icpc.global/regionals/finder/seoul-2022/standings
-  - title: "2022 ACM ICPC Daejeon Regional 16th place (team: LaSt Chance)"
+  - year: 2022
+    title: "ACM ICPC Seoul Regional"
+    prize: 16th place
+    teamName: LaSt Chance
     link: https://icpc.global/regionals/finder/seoul-2023/standings
-  - title: "2015 ACM ICPC Daejeon Regional 28th place (team: dailyCoding)"
+  - year: 2015
+    title: "ACM ICPC Daejeon Regional"
+    prize: 28th place
+    teamName: dailyCoding
     link: https://icpc.global/regionals/finder/daejeon-2016/standings
-  - title: "2022 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 7th place (team name: aHR0cDovL2Vyci5vLXIua3Iv)"
+  - year: 2022
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 7th place
+    teamName: aHR0cDovL2Vyci5vLXIua3Iv
     link: https://www.acmicpc.net/contest/spotboard/828
-  - title: "2020 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 8th place (team name: 성우되는 법)"
+  - year: 2020
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 8th place
+    teamName: 성우되는 법
     link: https://www.acmicpc.net/contest/spotboard/524
-  - title: "2021 전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC) 15th place (team name: TLE NIE TAK)"
+  - year: 2021
+    title: "전국 대학생 프로그래밍 대회 동아리 연합 대회 (UCPC)"
+    prize: 15th place
+    teamName: TLE NIE TAK
     link: https://www.acmicpc.net/contest/spotboard/670
-  - title: "2021 삼성 대학생 프로그래밍 경시대회 (SCPC) 5등상"
+  - year: 2021
+    title: "2021 삼성 대학생 프로그래밍 경시대회 (SCPC)"
+    prize: 5등상
+    teamName: null
     link: https://www.codeground.org/scpc/commons/honer/list
-  - title: "2017 삼성 대학생 프로그래밍 경시대회(SCPC) 5등상"
+  - year: 2017
+    title: "삼성 대학생 프로그래밍 경시대회(SCPC)"
+    prize: 5등상
+    teamName: null
     link: https://www.codeground.org/scpc/commons/honer/list
-  - title: "2022 2학기 캡스톤디자인 경진대회 우수상"
+  - year: 2022
+    title: "2학기 캡스톤디자인 경진대회"
+    prize: 우수상
+    teamName: null
     link: https://info.korea.ac.kr/info/board/notice_under.do;jsessionid=T4yFkspYTHXHv1w7NgJD090ZWflS1fvJnVqQvRplZNTP1y1Gn2ym!401080661?mode=view&articleNo=312421&article.offset=0&articleLimit=10&srSearchVal=%EC%BA%A1%EC%8A%A4%ED%86%A4&srSearchKey=article_title&totalNoticeYn=N&totalBoardNo=
 
 
 education:
   - school: Korea Univ
-    degree: 3.6x/4.5
+    degree: 3.68/4.5
     fieldOfStudy: Computer Science
     startDate: 2016-03
     endDate: 2024-02
